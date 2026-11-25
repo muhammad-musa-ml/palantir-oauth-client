@@ -1,0 +1,5 @@
+type: fix
+fix:
+  description: Unset OAUTHLIB_RELAX_TOKEN_SCOPE after fetch_token if it was not set before
+  links:
+  - https://github.com/palantir/palantir-oauth-client/pull/21
